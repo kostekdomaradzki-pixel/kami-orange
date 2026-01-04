@@ -21,9 +21,9 @@ import java.io.File
 class KamiMod {
 
     companion object {
-        const val NAME = "KAMI Red"
-        const val ID = "kamired"
-        const val DIRECTORY = "kamired/"
+        const val NAME = "KAMI Orange"
+        const val ID = "kamiorange"
+        const val DIRECTORY = "kamiorange/"
 
         const val VERSION = "3.01.12-f53f90c7" // Used for debugging. R.MM.DD-hash format.
         const val VERSION_SIMPLE = "3.01.12-beta" // Shown to the user. R.MM.DD[-beta] format.
