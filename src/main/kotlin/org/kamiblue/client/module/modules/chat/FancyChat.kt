@@ -14,7 +14,7 @@ internal object FancyChat : Module(
     showOnArray = false,
     modulePriority = 100
 ) {
-    private val uwu = setting("uwu", true)
+    private val uwu = setting("germanball", true)
     private val leet = setting("1337", false)
     private val mock = setting("mOcK", false)
     private val green = setting(">", false)
@@ -65,7 +65,7 @@ internal object FancyChat : Module(
     override fun getHudInfo(): String {
         val returned = StringBuilder()
         if (uwu.value) {
-            returned.append("uwu")
+            returned.append("germanball")
         }
         if (leet.value) {
             returned.append(" 1337")
@@ -106,12 +106,13 @@ internal object FancyChat : Module(
 
     private fun uwuConverter(input: String): String {
         var lInput = input
-        lInput = lInput.replace("ove", "uv")
-        lInput = lInput.replace("the", "da")
-        lInput = lInput.replace("is", "ish")
-        lInput = lInput.replace("r", "w")
-        lInput = lInput.replace("ve", "v")
-        lInput = lInput.replace("l", "w")
+        lInput = lInput.replace("that", "zat")
+        lInput = lInput.replace("the", "ze")
+        lInput = lInput.replace("is", "ist")
+        lInput = lInput.replace("w", "v")
+        lInput = lInput.replace("this", "zis")
+        lInput = lInput.replace("you","yuo")
+        lInput = lInput.replace("flamethrower" = "𝔉𝔩𝔞𝔪𝔪𝔢𝔫𝔴𝔢𝔯𝔣𝔢𝔯")
         return lInput
     }
 
